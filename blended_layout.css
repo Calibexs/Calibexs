@@ -1,202 +1,200 @@
-*{
-padding : 0;
-margin : 0;
-border : 0;
-}
-body{
-margin: 50px;
-
-.blended_grid{
-display : block;
-width : 1000px;
-overflow : auto;
-margin : 30px auto 0 auto;
-position: relative;
-}
-.banner{
-clear : none;
-float : left;
-position : relative;
-width : 1000px;
-height : 50px;
-background-color : rgb(254 0 255 / 67%);
-}
-.pageHeader{
-background: black;
-border-bottom: 1px solid black;
-margin: 0 auto;
-position: relative;
-float : left;
-clear : none;
-height : 125px;
-width : 1000px;
-}
-.sub-banner{
-clear : none;
-float : left;
-position : relative;
-width : 1000px;
-background-color : rgba(254,0,255,0.89);
-height : 32px;
-}
-.pageLeftMenu{
-background-color : rgb(180 97 90 / 67%);
-float : left;
-clear : none;
-border-right: 5px black;
-position: relative;
-height : 600px;
-width : 200px;
-}
-.pageContent{
-background-color : rgb(180 97 251 / 67%);
-float : left;
-position: relative;
-clear : none;
-height : 600px;
-width : 800px;
-}
-.footer{
-background-color : rgba(0, 0, 0, 0.5);
-float : left;
-background-color : rgb(254 0 255 / 67%);
-clear : none;
-position: relative;
-height : 75px;
-width : 1000px;
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
 }
 
-
-#blendedMenu *{
-padding:0;
-margin:0;
-border:0;
-list-style-type:none;
-word-spacing:0px;
+body {
+    margin: 50px;
+    .blended_grid {
+        display: block;
+        width: 1000px;
+        overflow: auto;
+        margin: 30px auto 0 auto;
+        position: relative;
+    }
+    .banner {
+        clear: none;
+        float: left;
+        position: relative;
+        width: 1000px;
+        height: 50px;
+        background-color: rgb(254 0 255 / 67%);
+    }
+    .pageHeader {
+        background: black;
+        border-bottom: 1px solid black;
+        margin: 0 auto;
+        position: relative;
+        float: left;
+        clear: none;
+        height: 125px;
+        width: 1000px;
+    }
+    .sub-banner {
+        clear: none;
+        float: left;
+        position: relative;
+        width: 1000px;
+        background-color: rgba(254, 0, 255, 0.89);
+        height: 32px;
+    }
+    .pageLeftMenu {
+        background-color: rgb(180 97 90 / 67%);
+        float: left;
+        clear: none;
+        border-right: 5px black;
+        position: relative;
+        height: 600px;
+        width: 200px;
+    }
+    .pageContent {
+        background-color: rgb(180 97 251 / 67%);
+        float: left;
+        position: relative;
+        clear: none;
+        height: 600px;
+        width: 800px;
+    }
+    .footer {
+        background-color: rgba(0, 0, 0, 0.5);
+        float: left;
+        background-color: rgb(254 0 255 / 67%);
+        clear: none;
+        position: relative;
+        height: 75px;
+        width: 1000px;
+    }
+    #blendedMenu * {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        list-style-type: none;
+        word-spacing: 0px;
+    }
+    #blendedMenu {
+        display: inline-table;
+        width: 100%;
+        background-size: 100% 100%;
+        margin: 0px auto;
+        height: 32px;
+        text-align: center;
+        background-color: rgba(255, 255, 255, 1);
+        box-shadow: inset 0px 0px 1px 1px rgba(0, 0, 0, 1);
+        border-radius: 0px;
+        font-size: 0px;
+    }
+    #blendedMenu>li {
+        display: inherit;
+        position: relative;
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+    #blendedMenu>li>a {
+        display: block;
+        text-decoration: none;
+        background-size: 100% 100%;
+        width: auto;
+        height: 32px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        min-width: 140px;
+        margin: 0px;
+        color: rgba(0, 0, 0, 1);
+        background-color: rgba(0, 0, 0, 0);
+        text-align: center;
+        border-radius: 1px;
+        line-height: 35px;
+        font-family: Verdana, Verdana, Geneva, sans-serif;
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+    #blendedMenu>li>ul>li>a {
+        display: block;
+        text-decoration: none;
+        background-size: 100% 100%;
+        width: auto;
+        height: 32px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        min-width: 140px;
+        margin: 0px;
+        color: rgba(0, 0, 0, 1);
+        background-color: rgba(255, 255, 255, 0);
+        text-align: center;
+        border-radius: 1px;
+        line-height: 35px;
+        font-family: Impact, Impact, Charcoal, sans-serif;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 1);
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+    #blendedMenu>li>ul>li>ul a {
+        display: block;
+        text-decoration: none;
+        background-size: 100% 100%;
+        width: auto;
+        height: 32px;
+        font-size: 18px;
+        letter-spacing: 1px;
+        min-width: 140px;
+        margin: 0px;
+        color: rgba(0, 0, 0, 1);
+        background-color: rgba(255, 255, 255, 0);
+        text-align: center;
+        border-radius: 1px;
+        line-height: 35px;
+        font-family: Impact, Impact, Charcoal, sans-serif;
+        border-width: 1px;
+        border-style: solid;
+        border-color: rgba(0, 0, 0, 1);
+        text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+    #blendedMenu>li>ul {
+        display: block;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 1);
+        z-index: 10;
+        visibility: hidden;
+        opacity: 0.1;
+        box-shadow: 0px 2px 2px 2px rgba(60, 255, 117, 1);
+        border-radius: 0px;
+        left: 0px;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+    }
+    #blendedMenu>li>ul>li>ul {
+        display: block;
+        position: absolute;
+        background-color: rgba(255, 255, 255, 1);
+        z-index: 10;
+        visibility: hidden;
+        left: 120px;
+        opacity: 0.1;
+        box-shadow: 2px 0px 2px 2px rgba(0, 0, 0, 1);
+        border-radius: 0px;
+        margin-top: -32px;
+        -webkit-transition: all 0.4s;
+        transition: all 0.4s;
+    }
+    #blendedMenu li:hover>a {
+        color: rgba(255, 255, 255, 1);
+        background-color: rgba(0, 0, 0, 1);
+    }
+    #blendedMenu .active>a {
+        color: rgba(0, 0, 0, 1);
+        background-color: rgba(120, 120, 120, 1);
+    }
+    #blendedMenu>li>ul>li:hover>ul {
+        visibility: visible;
+        opacity: 1;
+        left: 140px;
+    }
+    #blendedMenu>li:hover>ul {
+        visibility: visible;
+        opacity: 1;
+    }
 }
-#blendedMenu{
-display : inline-table;
-width : 100%;
-background-size : 100% 100%;
-margin : 0px auto;
-height : 32px;
-text-align : center;
-background-color : rgba(255,255,255,1);
-box-shadow : inset 0px 0px 1px 1px rgba(0,0,0,1);
-border-radius : 0px;
-font-size : 0px;
-}
-#blendedMenu > li{
-display : inherit;
-position : relative;
-margin-top : 0px;
-margin-left : 0px;
-}
-#blendedMenu > li > a{
-display : block;
-text-decoration : none;
-background-size : 100% 100%;
-width : auto;
-height : 32px;
-font-size : 18px;
-letter-spacing : 1px;
-min-width : 140px;
-margin : 0px;
-color : rgba(0,0,0,1);
-background-color : rgba(0,0,0,0);
-text-align : center;
-border-radius : 1px;
-line-height : 35px;
-font-family : Verdana, Verdana, Geneva, sans-serif;
-text-shadow : 0px 0px 0px rgba(0,0,0,0);
-box-shadow : 0px 0px 0px 0px rgba(0,0,0,0);
-}
-#blendedMenu > li > ul > li > a{
-display : block;
-text-decoration : none;
-background-size : 100% 100%;
-width : auto;
-height : 32px;
-font-size : 18px;
-letter-spacing : 1px;
-min-width : 140px;
-margin : 0px;
-color : rgba(0,0,0,1);
-background-color : rgba(255,255,255,0);
-text-align : center;
-border-radius : 1px;
-line-height : 35px;
-font-family : Impact, Impact, Charcoal, sans-serif;
-border-width : 1px;
-border-style : solid;
-border-color : rgba(0,0,0,1);
-text-shadow : 0px 0px 0px rgba(0,0,0,0);
-box-shadow : 0px 0px 0px 0px rgba(0,0,0,0);
-}
-#blendedMenu > li > ul > li > ul a{
-display : block;
-text-decoration : none;
-background-size : 100% 100%;
-width : auto;
-height : 32px;
-font-size : 18px;
-letter-spacing : 1px;
-min-width : 140px;
-margin : 0px;
-color : rgba(0,0,0,1);
-background-color : rgba(255,255,255,0);
-text-align : center;
-border-radius : 1px;
-line-height : 35px;
-font-family : Impact, Impact, Charcoal, sans-serif;
-border-width : 1px;
-border-style : solid;
-border-color : rgba(0,0,0,1);
-text-shadow : 0px 0px 0px rgba(0,0,0,0);
-box-shadow : 0px 0px 0px 0px rgba(0,0,0,0);
-}
-#blendedMenu > li > ul{
-display : block;
-position : absolute;
-background-color : rgba(255,255,255,1);
-z-index : 10;
-visibility : hidden;
-opacity : 0.1;
-box-shadow : 0px 2px 2px 2px rgba(60,255,117,1);
-border-radius : 0px;
-left : 0px;
--webkit-transition : all 0.4s;
-transition : all 0.4s;
-}
-#blendedMenu > li > ul > li > ul{
-display : block;
-position : absolute;
-background-color : rgba(255,255,255,1);
-z-index : 10;
-visibility : hidden;
-left : 120px;
-opacity : 0.1;
-box-shadow : 2px 0px 2px 2px rgba(0,0,0,1);
-border-radius : 0px;
-margin-top : -32px;
--webkit-transition : all 0.4s;
-transition : all 0.4s;
-}
-#blendedMenu li:hover > a{
-color : rgba(255,255,255,1);
-background-color : rgba(0,0,0,1);
-}
-#blendedMenu .active > a{
-color : rgba(0,0,0,1);
-background-color : rgba(120,120,120,1);
-}
-#blendedMenu > li > ul > li:hover > ul{
-visibility : visible;
-opacity : 1;
-left : 140px;
-}
-#blendedMenu > li:hover > ul{
-visibility : visible;
-opacity : 1;
-}
-
