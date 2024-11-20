@@ -1,0 +1,24 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+AddDefaultCharset UTF-8
+
+ErrorDocument 404 /error.html
+
+Header set Content-Language "en"
+
+<FilesMatch "\.(png|jp?g|gif|ico|mp4|wmv|mov|mpeg|css|map|woff?|eot|svg|ttf|js|json|pdf|csv)">        
+    ExpiresActive on
+    ExpiresDefault "access plus 2 weeks"
+</FilesMatch>
+
+<IfModule mod_expires.c>
+    ExpiresActive on
+ 
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType text/css "access plus 1 month"
+</IfModule>
