@@ -1,33 +1,29 @@
+<div align="center">
+
 # Musse Dawit
 
-Cybersecurity & Computer Science student at the University of North Georgia.
+### Cybersecurity • Computer Science • Linux • Infrastructure
 
-I build and work with Linux systems, networking, self-hosted infrastructure,
-cybersecurity tools, automation, and software projects.
+[![Website](https://img.shields.io/badge/calibexs.com-7c3aed?style=for-the-badge&logo=googlechrome&logoColor=white)](https://calibexs.com/musse-dawit/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Musse_Dawit-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/musse-dawit/)
+[![GitHub](https://img.shields.io/badge/GitHub-Calibexs-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Calibexs)
 
-### Areas I'm working in
-
-- Cybersecurity
-- Computer Science
-- Linux administration
-- Networking
-- Docker & self-hosting
-- WireGuard / IKEv2
-- Reverse engineering
-- Digital forensics
-- Infrastructure automation
-
-### Projects
-
-Most of my public infrastructure and projects are available through:
-
-**[calibexs.com](https://calibexs.com/)**
-
-### About me
-
-**[Musse Dawit — calibexs.com](https://calibexs.com/musse-dawit/)**
+</div>
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/musse-dawit/) •
-[Website](https://calibexs.com/musse-dawit/)
+## 👋 about me
+
+I'm **Musse Dawit**, a Cybersecurity & Computer Science student at the
+University of North Georgia.
+
+I like building things that involve Linux, networking, infrastructure,
+security, automation, servers, and figuring out how systems actually work.
+
+```text
+focus      cybersecurity + computer science
+systems    linux / windows
+infra      docker / nginx / self-hosting
+network    wireguard / ikev2 / routing / dns
+security   reverse engineering / forensics / analysis
+building   calibexs.com
