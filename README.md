@@ -1,16 +1,33 @@
-## Hi there 👋
+# Musse Dawit
 
-<!--
-**Calibexs/Calibexs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Cybersecurity & Computer Science student at the University of North Georgia.
 
-Here are some ideas to get you started:
+I build and work with Linux systems, networking, self-hosted infrastructure,
+cybersecurity tools, automation, and software projects.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Areas I'm working in
+
+- Cybersecurity
+- Computer Science
+- Linux administration
+- Networking
+- Docker & self-hosting
+- WireGuard / IKEv2
+- Reverse engineering
+- Digital forensics
+- Infrastructure automation
+
+### Projects
+
+Most of my public infrastructure and projects are available through:
+
+**[calibexs.com](https://calibexs.com/)**
+
+### About me
+
+**[Musse Dawit — calibexs.com](https://calibexs.com/musse-dawit/)**
+
+---
+
+[LinkedIn](https://www.linkedin.com/in/musse-dawit/) •
+[Website](https://calibexs.com/musse-dawit/)
